@@ -44,5 +44,11 @@ namespace CRUD
             CRUD.MainWindow form = new CRUD.MainWindow();
             form.ShowDialog();
         }
+
+        private void BtnEliminar_Click(object sender, RoutedEventArgs e)
+        {
+            CRUD.EliminarDatos form = new CRUD.EliminarDatos();
+            form.ShowDialog();
+        }
     }
 }
